@@ -1,0 +1,374 @@
+{
+  "summary": {
+    "total": 37,
+    "ok": 37,
+    "warning": 0,
+    "failed": 0
+  },
+  "results": {
+    "ok": [
+      {
+        "notebook": "Agentic_RAG",
+        "path": "notebooks/Agentic_RAG/Agentic_RAG.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.0036280155181884766
+      },
+      {
+        "notebook": "HyDe_Hypothetical_Document_Embedding",
+        "path": "notebooks/HyDe_Hypothetical_Document_Embedding/HyDe_Hypothetical_Document_Embedding.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.00018262863159179688
+      },
+      {
+        "notebook": "HyPE_Hypothetical_Prompt_Embeddings",
+        "path": "notebooks/HyPE_Hypothetical_Prompt_Embeddings/HyPE_Hypothetical_Prompt_Embeddings.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.00024318695068359375
+      },
+      {
+        "notebook": "Microsoft_GraphRag",
+        "path": "notebooks/Microsoft_GraphRag/Microsoft_GraphRag.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.00015234947204589844
+      },
+      {
+        "notebook": "adaptive_retrieval",
+        "path": "notebooks/adaptive_retrieval/adaptive_retrieval.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.00024437904357910156
+      },
+      {
+        "notebook": "choose_chunk_size",
+        "path": "notebooks/choose_chunk_size/choose_chunk_size.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.00012445449829101562
+      },
+      {
+        "notebook": "context_enrichment_window_around_chunk",
+        "path": "notebooks/context_enrichment_window_around_chunk/context_enrichment_window_around_chunk.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.00016999244689941406
+      },
+      {
+        "notebook": "context_enrichment_window_around_chunk_with_llamaindex",
+        "path": "notebooks/context_enrichment_window_around_chunk_with_llamaindex/context_enrichment_window_around_chunk_with_llamaindex.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.0001266002655029297
+      },
+      {
+        "notebook": "contextual_chunk_headers",
+        "path": "notebooks/contextual_chunk_headers/contextual_chunk_headers.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.00011777877807617188
+      },
+      {
+        "notebook": "contextual_compression",
+        "path": "notebooks/contextual_compression/contextual_compression.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.00011610984802246094
+      },
+      {
+        "notebook": "crag",
+        "path": "notebooks/crag/crag.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.00020813941955566406
+      },
+      {
+        "notebook": "dartboard",
+        "path": "notebooks/dartboard/dartboard.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.00021719932556152344
+      },
+      {
+        "notebook": "document_augmentation",
+        "path": "notebooks/document_augmentation/document_augmentation.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.00018167495727539062
+      },
+      {
+        "notebook": "explainable_retrieval",
+        "path": "notebooks/explainable_retrieval/explainable_retrieval.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.0001049041748046875
+      },
+      {
+        "notebook": "fusion_retrieval",
+        "path": "notebooks/fusion_retrieval/fusion_retrieval.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.00012350082397460938
+      },
+      {
+        "notebook": "fusion_retrieval_with_llamaindex",
+        "path": "notebooks/fusion_retrieval_with_llamaindex/fusion_retrieval_with_llamaindex.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.00015926361083984375
+      },
+      {
+        "notebook": "graph_rag",
+        "path": "notebooks/graph_rag/graph_rag.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.004274606704711914
+      },
+      {
+        "notebook": "graphrag_with_milvus_vectordb",
+        "path": "notebooks/graphrag_with_milvus_vectordb/graphrag_with_milvus_vectordb.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.0004639625549316406
+      },
+      {
+        "notebook": "hierarchical_indices",
+        "path": "notebooks/hierarchical_indices/hierarchical_indices.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.00020170211791992188
+      },
+      {
+        "notebook": "json_rag",
+        "path": "notebooks/json_rag/json_rag.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.00027751922607421875
+      },
+      {
+        "notebook": "memorag",
+        "path": "notebooks/memorag/memorag.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.0003819465637207031
+      },
+      {
+        "notebook": "multi_model_rag_with_captioning",
+        "path": "notebooks/multi_model_rag_with_captioning/multi_model_rag_with_captioning.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.00016570091247558594
+      },
+      {
+        "notebook": "multi_model_rag_with_colpali",
+        "path": "notebooks/multi_model_rag_with_colpali/multi_model_rag_with_colpali.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.004327058792114258
+      },
+      {
+        "notebook": "proposition_chunking",
+        "path": "notebooks/proposition_chunking/proposition_chunking.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.0003833770751953125
+      },
+      {
+        "notebook": "query_transformations",
+        "path": "notebooks/query_transformations/query_transformations.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.00015974044799804688
+      },
+      {
+        "notebook": "raptor",
+        "path": "notebooks/raptor/raptor.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.0002281665802001953
+      },
+      {
+        "notebook": "relevant_segment_extraction",
+        "path": "notebooks/relevant_segment_extraction/relevant_segment_extraction.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.0003733634948730469
+      },
+      {
+        "notebook": "reliable_rag",
+        "path": "notebooks/reliable_rag/reliable_rag.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.0006430149078369141
+      },
+      {
+        "notebook": "reranking",
+        "path": "notebooks/reranking/reranking.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.0002052783966064453
+      },
+      {
+        "notebook": "reranking_with_llamaindex",
+        "path": "notebooks/reranking_with_llamaindex/reranking_with_llamaindex.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.00014662742614746094
+      },
+      {
+        "notebook": "retrieval_with_feedback_loop",
+        "path": "notebooks/retrieval_with_feedback_loop/retrieval_with_feedback_loop.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.00017786026000976562
+      },
+      {
+        "notebook": "self_rag",
+        "path": "notebooks/self_rag/self_rag.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.00015974044799804688
+      },
+      {
+        "notebook": "semantic_chunking",
+        "path": "notebooks/semantic_chunking/semantic_chunking.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.00011563301086425781
+      },
+      {
+        "notebook": "simple_csv_rag",
+        "path": "notebooks/simple_csv_rag/simple_csv_rag.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.0001533031463623047
+      },
+      {
+        "notebook": "simple_csv_rag_with_llamaindex",
+        "path": "notebooks/simple_csv_rag_with_llamaindex/simple_csv_rag_with_llamaindex.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.00011086463928222656
+      },
+      {
+        "notebook": "simple_rag",
+        "path": "notebooks/simple_rag/simple_rag.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.00022292137145996094
+      },
+      {
+        "notebook": "simple_rag_with_llamaindex",
+        "path": "notebooks/simple_rag_with_llamaindex/simple_rag_with_llamaindex.ipynb",
+        "status": "ok",
+        "error": null,
+        "imports_ok": true,
+        "env_loading_ok": true,
+        "execution_time": 0.00016188621520996094
+      }
+    ],
+    "warning": [],
+    "failed": []
+  },
+  "import_tests": [
+    {
+      "notebook": "Agentic_RAG",
+      "imports_executable": false,
+      "error": "Traceback (most recent call last):\n  File \"/tmp/test_imports.py\", line 10, in <module>\n    from utils.env_loader import load_environment, check_required_keys, display_config\nModuleNotFoundError: No mo"
+    },
+    {
+      "notebook": "HyDe_Hypothetical_Document_Embedding",
+      "imports_executable": false,
+      "error": "  File \"/tmp/test_imports.py\", line 33\n    !git clone https://github.com/NirDiamant/RAG_TECHNIQUES.git\n    ^\nSyntaxError: invalid syntax\n"
+    },
+    {
+      "notebook": "HyPE_Hypothetical_Prompt_Embeddings",
+      "imports_executable": false,
+      "error": "  File \"/tmp/test_imports.py\", line 33\n    !git clone https://github.com/NirDiamant/RAG_TECHNIQUES.git\n    ^\nSyntaxError: invalid syntax\n"
+    },
+    {
+      "notebook": "Microsoft_GraphRag",
+      "imports_executable": false,
+      "error": "Traceback (most recent call last):\n  File \"/tmp/test_imports.py\", line 10, in <module>\n    from utils.env_loader import load_environment, check_required_keys, display_config\nModuleNotFoundError: No mo"
+    },
+    {
+      "notebook": "adaptive_retrieval",
+      "imports_executable": false,
+      "error": "  File \"/tmp/test_imports.py\", line 33\n    !git clone https://github.com/NirDiamant/RAG_TECHNIQUES.git\n    ^\nSyntaxError: invalid syntax\n"
+    }
+  ]
+}

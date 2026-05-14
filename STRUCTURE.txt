@@ -1,0 +1,151 @@
+RAG_Techniques_Notebooks/
+│
+├── 📄 Documentation Files
+│   ├── START_HERE.md              ← BEGIN HERE! Your entry point
+│   ├── QUICKSTART.md              ← 5-minute setup guide
+│   ├── SETUP_CREDENTIALS.md       ← Detailed credential setup
+│   ├── README.md                  ← Complete project documentation
+│   ├── PROJECT_SUMMARY.md         ← What was created
+│   ├── STRUCTURE.txt              ← This file (project structure)
+│   └── INDEX.ipynb                ← Interactive notebook navigator
+│
+├── ⚙️ Configuration Files
+│   ├── .env                       ← YOUR API KEYS GO HERE!
+│   ├── .env.template              ← Template for .env
+│   ├── .gitignore                 ← Protects sensitive files
+│   └── requirements.txt           ← Python dependencies (61 packages)
+│
+├── 🛠️ Utility Scripts
+│   ├── convert_notebooks.py       ← Conversion script (already run ✅)
+│   └── verify_setup.py            ← Verify your setup
+│
+├── 📦 Shared Resources
+│   ├── utils/                     ← Utility modules
+│   │   ├── __init__.py
+│   │   ├── env_loader.py          ← Loads .env automatically
+│   │   └── helper_functions.py    ← RAG helper functions
+│   │
+│   ├── data/                      ← Sample data files (7 files)
+│   │   ├── Understanding_Climate_Change.pdf
+│   │   └── ...more sample files
+│   │
+│   └── images/                    ← Diagrams & visualizations (42 files)
+│       ├── graph_rag.svg
+│       ├── crag.svg
+│       └── ...more diagrams
+│
+└── 📚 RAG Techniques (37 folders, each with notebook + README)
+    │
+    ├── 🌟 Basic RAG
+    │   ├── simple_rag/
+    │   │   ├── simple_rag.ipynb
+    │   │   └── README.md
+    │   ├── simple_rag_with_llamaindex/
+    │   ├── simple_csv_rag/
+    │   └── simple_csv_rag_with_llamaindex/
+    │
+    ├── 🔍 Advanced Retrieval
+    │   ├── fusion_retrieval/
+    │   ├── fusion_retrieval_with_llamaindex/
+    │   ├── adaptive_retrieval/
+    │   ├── hierarchical_indices/
+    │   └── dartboard/
+    │
+    ├── 🔮 Query Enhancement
+    │   ├── HyDe_Hypothetical_Document_Embedding/
+    │   ├── HyPE_Hypothetical_Prompt_Embeddings/
+    │   └── query_transformations/
+    │
+    ├── 📝 Context Enhancement
+    │   ├── context_enrichment_window_around_chunk/
+    │   ├── context_enrichment_window_around_chunk_with_llamaindex/
+    │   ├── contextual_chunk_headers/
+    │   └── contextual_compression/
+    │
+    ├── ✂️ Chunking Strategies
+    │   ├── choose_chunk_size/
+    │   ├── semantic_chunking/
+    │   └── proposition_chunking/
+    │
+    ├── 🎯 Reranking
+    │   ├── reranking/
+    │   └── reranking_with_llamaindex/
+    │
+    ├── 🧠 Advanced RAG Patterns
+    │   ├── crag/                  ← Corrective RAG
+    │   ├── self_rag/
+    │   ├── reliable_rag/
+    │   ├── retrieval_with_feedback_loop/
+    │   └── explainable_retrieval/
+    │
+    ├── 🕸️ Graph-Based RAG
+    │   ├── graph_rag/
+    │   ├── Microsoft_GraphRag/
+    │   └── graphrag_with_milvus_vectordb/
+    │
+    ├── 🤖 Agent-Based RAG
+    │   └── Agentic_RAG/
+    │
+    ├── 📄 Document Processing
+    │   ├── document_augmentation/
+    │   ├── relevant_segment_extraction/
+    │   └── json_rag/
+    │
+    ├── 🚀 Advanced Techniques
+    │   ├── raptor/               ← Recursive processing
+    │   └── memorag/              ← Memory-augmented
+    │
+    └── 🖼️ Multimodal RAG
+        ├── multi_model_rag_with_captioning/
+        └── multi_model_rag_with_colpali/
+
+═══════════════════════════════════════════════════════════════
+
+📊 PROJECT STATISTICS
+
+✅ Total Techniques:        37
+✅ Notebook Files:          38 (37 techniques + 1 INDEX.ipynb)
+✅ README Files:            38 (37 techniques + 1 project README)
+✅ Documentation Files:     7
+✅ Python Dependencies:     61 packages
+✅ Vector Databases:        6 supported (FAISS, Pinecone, Weaviate, Qdrant, Milvus, ChromaDB)
+✅ Sample Data Files:       7
+✅ Diagram Files:           42
+✅ Utility Modules:         3
+
+═══════════════════════════════════════════════════════════════
+
+🎯 QUICK NAVIGATION
+
+📖 To Learn:           Open START_HERE.md
+⚡ Quick Setup:        Open QUICKSTART.md  
+🔐 Add Credentials:    Edit .env file
+🧪 Verify Setup:       Run: python3 verify_setup.py
+📚 Browse All:         Open INDEX.ipynb in Jupyter
+🎓 First Notebook:     notebooks/simple_rag/simple_rag.ipynb
+
+═══════════════════════════════════════════════════════════════
+
+🌟 WHAT MAKES THIS SPECIAL
+
+✅ Centralized .env configuration (no hardcoded keys!)
+✅ Automatic environment loading in every notebook
+✅ Multiple vector database support (switch easily)
+✅ Each technique in its own organized folder
+✅ Shared utilities and resources
+✅ Production-ready structure
+✅ Complete documentation
+✅ Security best practices (git-ignored secrets)
+
+═══════════════════════════════════════════════════════════════
+
+🚀 GET STARTED NOW
+
+1. Edit .env → Add your OpenAI API key
+2. Run: pip install -r requirements.txt
+3. Run: jupyter lab
+4. Open: INDEX.ipynb
+
+That's it! You're ready to explore 37 RAG techniques! 🎉
+
+═══════════════════════════════════════════════════════════════

@@ -1,0 +1,116 @@
+# Core Dependencies for RAG Techniques Notebooks
+# Updated for Python 3.10+
+# Configured for AWS Bedrock + Qdrant
+
+# Environment Management
+python-dotenv==1.0.0
+
+# LangChain Core
+langchain==0.1.20
+langchain-core==0.1.52
+langchain-community==0.0.38
+
+# AWS Bedrock (Primary LLM/Embeddings Provider)
+langchain-aws==0.1.6
+boto3==1.34.96
+botocore==1.34.96
+
+# Alternative LLM Providers (Optional)
+langchain-openai==0.1.7
+langchain-anthropic==0.1.11
+langchain-cohere==0.1.5
+langchain-groq==0.1.3
+
+# LlamaIndex
+llama-index==0.10.30
+llama-index-core==0.10.30
+llama-index-llms-openai==0.1.15
+llama-index-embeddings-openai==0.1.7
+
+# OpenAI
+openai==1.25.0
+
+# Anthropic
+anthropic==0.25.1
+
+# Vector Databases
+# Qdrant (Primary Vector DB)
+qdrant-client==1.9.0
+
+# Alternative Vector Databases (Optional)
+faiss-cpu==1.8.0
+pinecone-client==3.2.2
+chromadb==0.4.24
+pymilvus==2.4.1
+weaviate-client==4.5.4
+
+# Embeddings & Models
+sentence-transformers==2.7.0
+cohere==5.3.3
+transformers==4.40.0
+torch==2.2.2
+tiktoken==0.6.0
+
+# Document Processing
+pypdf==4.2.0
+PyPDF2==3.0.1
+pymupdf==1.24.2
+pdfplumber==0.11.0
+python-docx==1.1.0
+pandas==2.2.2
+openpyxl==3.1.2
+
+# Text Processing
+rank-bm25==0.2.2
+nltk==3.8.1
+spacy==3.7.4
+
+# Reranking
+rank_bm25==0.2.2
+
+# Graph Processing (for Graph RAG)
+networkx==3.3
+neo4j==5.19.0
+pyvis==0.3.2
+
+# Web Scraping & APIs
+beautifulsoup4==4.12.3
+requests==2.31.0
+
+# Utilities
+numpy==1.26.4
+scipy==1.13.0
+pydantic==2.7.1
+tenacity==8.2.3
+tqdm==4.66.2
+
+# Jupyter
+jupyter==1.0.0
+notebook==7.1.3
+jupyterlab==4.1.8
+ipywidgets==8.1.2
+ipykernel==6.29.4
+
+# Visualization
+matplotlib==3.8.4
+plotly==5.21.0
+
+# Graph RAG specific
+graspologic==3.3.0
+
+# Multimodal RAG
+pillow==10.3.0
+colpali==0.1.0
+
+# Evaluation
+ragas==0.1.7
+deepeval==0.21.45
+
+# API Rate Limiting
+ratelimit==2.2.1
+
+# Groq (optional)
+groq==0.5.0
+
+# AWS CLI tools (optional, for managing credentials)
+awscli==1.32.96
