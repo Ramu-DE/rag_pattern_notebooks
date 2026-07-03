@@ -1,6 +1,3 @@
-# Environment variables
-.env
-
 # Python
 __pycache__/
 *.py[cod]
@@ -24,6 +21,7 @@ wheels/
 *.egg
 
 # Virtual Environment
+.venv/
 venv/
 ENV/
 env/
@@ -43,11 +41,18 @@ env/
 .DS_Store
 Thumbs.db
 
+# Environment variables
+.env
+
 # Data files (large files)
 data/*.pdf
 data/*.csv
+*.csv
 data/*.json
 !data/README.md
+!data/sample-movies-small.json
+!requirements.txt
+!package.json
 
 # Model files
 *.bin
@@ -67,3 +72,11 @@ logs/
 # Vector DB local storage
 chroma_db/
 faiss_index/
+
+# Project specific
+config.json
+.claude/
+.claude.json
+
+# Test outputs
+test_results/
