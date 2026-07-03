@@ -30,11 +30,25 @@ class OpenSearchManager:
 
         # Load from config if endpoint not provided
         if collection_endpoint is None:
-            try:
-                with open('../vector-engine-demos/config.json', 'r') as f:
-                    config = json.load(f)
-                    collection_endpoint = config['endpoint']
-            except:
+            config_paths = [
+                '../vector-engine-demos/config.json',
+                'config.json',
+                '../config.json',
+                '../../vector-engine-demos/config.json'
+            ]
+
+            config_loaded = False
+            for config_path in config_paths:
+                try:
+                    with open(config_path, 'r') as f:
+                        config = json.load(f)
+                        collection_endpoint = config['endpoint']
+                        config_loaded = True
+                        break
+                except:
+                    continue
+
+            if not config_loaded:
                 raise ValueError("No OpenSearch endpoint provided and config.json not found")
 
         self.endpoint = collection_endpoint
