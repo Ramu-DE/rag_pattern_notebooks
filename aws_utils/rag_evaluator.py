@@ -6,6 +6,7 @@ Metrics and evaluation tools
 import time
 from typing import List, Dict, Any
 import numpy as np
+import pandas as pd
 
 
 class RAGEvaluator:
