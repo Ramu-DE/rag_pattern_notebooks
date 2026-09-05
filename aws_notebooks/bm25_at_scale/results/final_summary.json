@@ -1,0 +1,37 @@
+{
+  "experiment": "BM25 Wins at Scale",
+  "source_document": "OECD - The Agentic AI Landscape and Its Conceptual Foundations (Feb 2026)",
+  "model": "Claude Haiku 4.5 (us.anthropic.claude-haiku-4-5-20251001-v1:0)",
+  "questions": 29,
+  "gold_documents": 10,
+  "trap_documents": 8,
+  "results": {
+    "bm25": {
+      "T0_18docs_4K": {"accuracy_pct": 66, "avg_tokens_per_query": 1667},
+      "T1_93docs_49K": {"accuracy_pct": 69, "avg_tokens_per_query": 1850},
+      "T2_243docs_136K": {"accuracy_pct": 69, "avg_tokens_per_query": 1866},
+      "T3_543docs_308K": {"accuracy_pct": 69, "avg_tokens_per_query": 1829},
+      "T4_1143docs_668K": {"accuracy_pct": 69, "avg_tokens_per_query": 1865},
+      "T5_2343docs_1380K": {"accuracy_pct": 69, "avg_tokens_per_query": 1869}
+    },
+    "long_context": {
+      "T0_18docs_4K": {"accuracy_pct": 69, "avg_tokens_per_query": 5062},
+      "T1_93docs_49K": {"accuracy_pct": 69, "avg_tokens_per_query": 55338},
+      "T2_243docs_136K": {"accuracy_pct": 69, "avg_tokens_per_query": 152320},
+      "T3_plus": {"accuracy_pct": 0, "reason": "Exceeds Haiku 4.5 200K token limit"}
+    },
+    "agent_40_call_budget": {
+      "T0_18docs_4K": {"accuracy_pct": 17, "avg_tokens_per_query": 15174}
+    },
+    "agent_15_call_budget": {
+      "T0_18docs_4K": {"accuracy_pct": 7, "avg_tokens_per_query": 4324}
+    }
+  },
+  "key_findings": {
+    "bm25_dominance": "BM25 achieves 66-69% accuracy across all tiers with flat ~1800 tok/q cost",
+    "agent_collapse": "Agent gets only 17% accuracy at smallest tier (18 docs), 9.1x BM25 token cost",
+    "long_context_wall": "Matches BM25 accuracy at small scale but fails beyond 200K tokens, 81x cost at T2",
+    "token_multiplier": "Agent burns 9.1x more tokens than BM25 for 4x worse accuracy",
+    "mechanism": "BM25 corpus-wide ranking beats agent sequential exploration at any scale"
+  }
+}
